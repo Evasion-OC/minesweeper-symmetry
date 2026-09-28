@@ -1,0 +1,5 @@
+numpy
+torch
+python-sat
+scipy
+pytest

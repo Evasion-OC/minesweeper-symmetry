@@ -1,0 +1,1240 @@
+{
+ "board": "8x8x10",
+ "device": "cpu",
+ "test positions for the equivariance error": 2000,
+ "symmetric positions": 400,
+ "symmetric set": {
+  "rows": 8,
+  "cols": 8,
+  "mines": 10,
+  "split": "test",
+  "seed": 1,
+  "epsilon": 0.2,
+  "positions": 400,
+  "games": 54492,
+  "kind": "positions with a symmetry of their own"
+ },
+ "symmetric positions also among the first n training positions, in some orientation": {
+  "1000": 0.01,
+  "10000": 0.06,
+  "100000": 0.29
+ },
+ "stabiliser sizes": {
+  "2": 400
+ },
+ "orbits of two or more covered cells": 9110,
+ "largest spread of the exact probabilities within an orbit": 0.0,
+ "models": {
+  "augment": {
+   "100000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.007231031240656481,
+      "max": 0.4877197660689455
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.005973727648432076,
+      "max": 0.1421553507381625
+     },
+     "KL per covered cell at symmetric positions": 0.0005185250151992973
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.007521233274455868,
+      "max": 0.7834348664583399
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.006570393992383504,
+      "max": 0.2012788324597577
+     },
+     "KL per covered cell at symmetric positions": 0.0006022498028514549
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.00768246303029163,
+      "max": 0.5580852213754841
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.006735618545142212,
+      "max": 0.16840665381205128
+     },
+     "KL per covered cell at symmetric positions": 0.0006120030632881698
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.007963909298998895,
+      "max": 0.5362679374417686
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0067529790713839934,
+      "max": 0.23839010664020452
+     },
+     "KL per covered cell at symmetric positions": 0.0005808720393765903
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.007880147636088842,
+      "max": 0.5406596069377438
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.007057143123469154,
+      "max": 0.23577376307692832
+     },
+     "KL per covered cell at symmetric positions": 0.0006694450975958694
+    }
+   },
+   "10000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.012242853688519328,
+      "max": 0.9602894024538268
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.009871028571667726,
+      "max": 0.279703057447594
+     },
+     "KL per covered cell at symmetric positions": 0.0016790600935453106
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.014068247257644934,
+      "max": 0.9932417866046013
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.010711817531703945,
+      "max": 0.47855303154028744
+     },
+     "KL per covered cell at symmetric positions": 0.002704788562460001
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.014499564899922514,
+      "max": 0.9819261412934924
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.013136736704802416,
+      "max": 0.2808770952543284
+     },
+     "KL per covered cell at symmetric positions": 0.0020240561782916945
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.012432077029213406,
+      "max": 0.9298365455475153
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.009390603377796096,
+      "max": 0.31681867346274317
+     },
+     "KL per covered cell at symmetric positions": 0.001996320987728508
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.013503686992578357,
+      "max": 0.7268288669010255
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.011393349923644335,
+      "max": 0.5332284005515022
+     },
+     "KL per covered cell at symmetric positions": 0.0027550764394327623
+    }
+   },
+   "1000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.03268668801822488,
+      "max": 0.9994637697687911
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.024429435084592905,
+      "max": 0.5612036516860192
+     },
+     "KL per covered cell at symmetric positions": 0.01645598177731592
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.032754921000745695,
+      "max": 0.9990279439711769
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.020920716418755196,
+      "max": 0.5142094160689145
+     },
+     "KL per covered cell at symmetric positions": 0.015580481261011638
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.03336291899170491,
+      "max": 0.997870236825966
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.022971380775835142,
+      "max": 0.6601479367907437
+     },
+     "KL per covered cell at symmetric positions": 0.0153548974400383
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.035433543712876846,
+      "max": 0.9953987898476944
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.025206513867274807,
+      "max": 0.6982541061413219
+     },
+     "KL per covered cell at symmetric positions": 0.01596187949145379
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.031126898171441025,
+      "max": 0.9978280660019265
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.022268183823914524,
+      "max": 0.812201490832029
+     },
+     "KL per covered cell at symmetric positions": 0.015134280430520253
+    }
+   }
+  },
+  "augment+avg": {
+   "100000": {
+    "0": {
+     "equivariance error": {
+      "mean": 4.011581213192805e-09,
+      "max": 1.1920912534879591e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.49387223538145e-09,
+      "max": 1.1919542231009217e-07
+     },
+     "KL per covered cell at symmetric positions": 0.00033756357256279864
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 4.06799612322185e-09,
+      "max": 1.1920927589503805e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.560142515483145e-09,
+      "max": 1.1920909048779293e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0003614842786329142
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 4.093588670637497e-09,
+      "max": 1.192092061730321e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.69506385881847e-09,
+      "max": 1.1920927006636717e-07
+     },
+     "KL per covered cell at symmetric positions": 0.000344759792404466
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 3.998026498306913e-09,
+      "max": 1.1920924702923941e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.074506907834499e-09,
+      "max": 1.1920712572610626e-07
+     },
+     "KL per covered cell at symmetric positions": 0.000344731941309216
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 4.0398564564029485e-09,
+      "max": 1.1920922898811526e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.674071434104961e-09,
+      "max": 8.872524698277928e-08
+     },
+     "KL per covered cell at symmetric positions": 0.000411211768845428
+    }
+   },
+   "10000": {
+    "0": {
+     "equivariance error": {
+      "mean": 4.214419620337552e-09,
+      "max": 1.1920891096472985e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.721239189589241e-09,
+      "max": 1.1873212069080097e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0009405671798672899
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 4.287203692362824e-09,
+      "max": 1.192076641842732e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.914523041033825e-09,
+      "max": 1.1890163875705184e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0015945643218285256
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 4.334419471835463e-09,
+      "max": 1.1920928727482405e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.180933690010393e-09,
+      "max": 1.1920825510047806e-07
+     },
+     "KL per covered cell at symmetric positions": 0.001127450753957292
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 4.209668718407762e-09,
+      "max": 1.1920842873935911e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.906580184791815e-09,
+      "max": 1.1917385156490212e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0010282530697193796
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 4.140323262001309e-09,
+      "max": 1.1920791909147965e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.468949678752328e-09,
+      "max": 1.1920322279257434e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0014607318985369426
+    }
+   },
+   "1000": {
+    "0": {
+     "equivariance error": {
+      "mean": 5.149085618507732e-09,
+      "max": 1.1920832077016996e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.691242441658587e-09,
+      "max": 8.889620461971504e-08
+     },
+     "KL per covered cell at symmetric positions": 0.012988680824389056
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 5.171020704040505e-09,
+      "max": 1.1894159490655198e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.09859457515121e-09,
+      "max": 8.899423398212036e-08
+     },
+     "KL per covered cell at symmetric positions": 0.011971444887635622
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 5.006234809082833e-09,
+      "max": 1.1913139114083648e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.694773659531676e-09,
+      "max": 1.1902696228638376e-07
+     },
+     "KL per covered cell at symmetric positions": 0.011164442647464443
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 5.0320178080714835e-09,
+      "max": 1.1902050028878008e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.029542044142677e-09,
+      "max": 1.0337434075413654e-07
+     },
+     "KL per covered cell at symmetric positions": 0.01133626811355991
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 4.9788827022743175e-09,
+      "max": 1.1920881493043822e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.817397607300795e-09,
+      "max": 1.1919309184094118e-07
+     },
+     "KL per covered cell at symmetric positions": 0.011514112233352861
+    }
+   }
+  },
+  "canonical": {
+   "100000": {
+    "0": {
+     "equivariance error": {
+      "mean": 1.5214373060759432e-06,
+      "max": 0.00864200733535564
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.008573976541655506,
+      "max": 0.29811820263097744
+     },
+     "KL per covered cell at symmetric positions": 0.0009450240591290943
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 1.7227230108429404e-06,
+      "max": 0.025767902316117697
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.008288385111067938,
+      "max": 0.29791132079958044
+     },
+     "KL per covered cell at symmetric positions": 0.0009154589324059027
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 2.3077791642628157e-06,
+      "max": 0.04674140734481519
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.008302092470665297,
+      "max": 0.32916402719679133
+     },
+     "KL per covered cell at symmetric positions": 0.0009231134801513132
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 2.709416073819422e-06,
+      "max": 0.015416787455987652
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0089547693341616,
+      "max": 0.2998635075927472
+     },
+     "KL per covered cell at symmetric positions": 0.0009081917527401495
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 1.8623756946662222e-06,
+      "max": 0.01443851673081023
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.009240441216547964,
+      "max": 0.406788715028397
+     },
+     "KL per covered cell at symmetric positions": 0.0011663711695648895
+    }
+   },
+   "10000": {
+    "0": {
+     "equivariance error": {
+      "mean": 3.5413298164312592e-06,
+      "max": 0.058120813870500165
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.020037426010688423,
+      "max": 0.7230359856600367
+     },
+     "KL per covered cell at symmetric positions": 0.00678746491528597
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 5.700586072135603e-06,
+      "max": 0.08650567343404375
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.02443528897480687,
+      "max": 0.69021901283
+     },
+     "KL per covered cell at symmetric positions": 0.006701174127548613
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 2.419628593464634e-06,
+      "max": 0.02288369210567459
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.016940849921832736,
+      "max": 0.5317612892402718
+     },
+     "KL per covered cell at symmetric positions": 0.006116555895949167
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 8.882959003060041e-06,
+      "max": 0.27068486545990406
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.022763346199778454,
+      "max": 0.8199108288751581
+     },
+     "KL per covered cell at symmetric positions": 0.008310736229118631
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 5.015925440935033e-06,
+      "max": 0.0304845548852255
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.018767988744016497,
+      "max": 0.5603630370663629
+     },
+     "KL per covered cell at symmetric positions": 0.005607541529439512
+    }
+   },
+   "1000": {
+    "0": {
+     "equivariance error": {
+      "mean": 1.268819019880679e-05,
+      "max": 0.09821333797101289
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.043579326295484444,
+      "max": 0.7901581934847148
+     },
+     "KL per covered cell at symmetric positions": 0.03974954898400503
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 1.3566823990322834e-05,
+      "max": 0.15225210253984256
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.04254389707304101,
+      "max": 0.8513049131102809
+     },
+     "KL per covered cell at symmetric positions": 0.0350480708923043
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 1.926143253645334e-05,
+      "max": 0.2908290423948483
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.04085502632633344,
+      "max": 0.793859767771252
+     },
+     "KL per covered cell at symmetric positions": 0.03840092244951232
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 1.9779238899480142e-05,
+      "max": 0.38283232581583343
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.04298515607848187,
+      "max": 0.8995467542805251
+     },
+     "KL per covered cell at symmetric positions": 0.03893182281615389
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 1.961462740887476e-05,
+      "max": 0.27900829535397265
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.04444144519250552,
+      "max": 0.7620531239282614
+     },
+     "KL per covered cell at symmetric positions": 0.04065133459032309
+    }
+   }
+  },
+  "canonical+frame": {
+   "100000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.0006867732105136676
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.0006706048618837303
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.0006539839757868107
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.0006209686642071922
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.0008223164850075047
+    }
+   },
+   "10000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.004591563836376875
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.004607001922592022
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.003876315738409149
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.006139535155597498
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.003963829268996216
+    }
+   },
+   "1000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.03478304372801026
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.028333840867891924
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.03323230309768135
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.030512322261088312
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.0,
+      "max": 0.0
+     },
+     "KL per covered cell at symmetric positions": 0.034263455956534156
+    }
+   }
+  },
+  "p4m8": {
+   "100000": {
+    "0": {
+     "equivariance error": {
+      "mean": 4.409201478819804e-07,
+      "max": 4.1074223677939337e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 4.6798871530889687e-07,
+      "max": 1.5869047207628384e-05
+     },
+     "KL per covered cell at symmetric positions": 0.0017096923491089992
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 4.1858900797598783e-07,
+      "max": 1.8349088170888095e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 3.0596774600942484e-07,
+      "max": 7.862565658656173e-06
+     },
+     "KL per covered cell at symmetric positions": 0.04339474050958309
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 5.541726094758224e-07,
+      "max": 3.76775196070378e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 5.856994483819728e-07,
+      "max": 2.049744735543868e-05
+     },
+     "KL per covered cell at symmetric positions": 0.0012931633262503693
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 5.20943556036467e-07,
+      "max": 2.5085146323683416e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 5.609785287320933e-07,
+      "max": 1.2553882088872648e-05
+     },
+     "KL per covered cell at symmetric positions": 0.001524427940932548
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 4.0648186653870365e-07,
+      "max": 3.568838640100047e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 4.224835639031247e-07,
+      "max": 1.0356721213411468e-05
+     },
+     "KL per covered cell at symmetric positions": 0.0017247543654058575
+    }
+   },
+   "10000": {
+    "0": {
+     "equivariance error": {
+      "mean": 6.707848823328559e-07,
+      "max": 4.746269417155169e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 6.384306586698436e-07,
+      "max": 2.1500994647760674e-05
+     },
+     "KL per covered cell at symmetric positions": 0.004910933323651033
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 4.978919113408664e-07,
+      "max": 2.3563171228646596e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 4.732679588842848e-07,
+      "max": 1.508421514218039e-05
+     },
+     "KL per covered cell at symmetric positions": 0.006046553732029082
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 6.400796071490132e-07,
+      "max": 5.508883079385907e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 5.856876945409823e-07,
+      "max": 1.388156088266701e-05
+     },
+     "KL per covered cell at symmetric positions": 0.004533844661868621
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 7.825566899593946e-07,
+      "max": 4.7711988705401165e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 6.764095717676099e-07,
+      "max": 2.1156401250332912e-05
+     },
+     "KL per covered cell at symmetric positions": 0.0057622087759826345
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 6.550805269541995e-07,
+      "max": 3.9579960221636235e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 6.063737071520167e-07,
+      "max": 1.778395659851606e-05
+     },
+     "KL per covered cell at symmetric positions": 0.0041654416988786275
+    }
+   },
+   "1000": {
+    "0": {
+     "equivariance error": {
+      "mean": 7.769217447065861e-07,
+      "max": 3.9049959429715564e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 6.402045693903421e-07,
+      "max": 2.1191829583988575e-05
+     },
+     "KL per covered cell at symmetric positions": 0.025346897304481895
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 1.1572666200863414e-06,
+      "max": 8.449185901793221e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.387872819057249e-07,
+      "max": 3.2051724347392785e-05
+     },
+     "KL per covered cell at symmetric positions": 0.060273162117555616
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 7.085811129035125e-07,
+      "max": 4.709723650875297e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 4.715667182553968e-07,
+      "max": 1.741401525512387e-05
+     },
+     "KL per covered cell at symmetric positions": 0.0298163710963151
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 9.703782378727285e-07,
+      "max": 4.3265064164188516e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.228252255743901e-07,
+      "max": 2.989311620199553e-05
+     },
+     "KL per covered cell at symmetric positions": 0.03015670870806949
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 6.454737918061594e-07,
+      "max": 3.358741482234473e-05
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 4.754134774159567e-07,
+      "max": 2.105639771643464e-05
+     },
+     "KL per covered cell at symmetric positions": 0.024662434284825577
+    }
+   }
+  },
+  "plain": {
+   "100000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.01492864717271372,
+      "max": 0.9711760138382959
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.011087040639822904,
+      "max": 0.48891902012576216
+     },
+     "KL per covered cell at symmetric positions": 0.0016259361606335108
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.012411368096843135,
+      "max": 0.957143318643624
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.009094625789457994,
+      "max": 0.2741998828892962
+     },
+     "KL per covered cell at symmetric positions": 0.001032695293055299
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.013186001851787147,
+      "max": 0.9785456875059511
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.009276601789202093,
+      "max": 0.3119469217208974
+     },
+     "KL per covered cell at symmetric positions": 0.0012153011281180555
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.013410938319136858,
+      "max": 0.8541251697443738
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.009822418199004666,
+      "max": 0.3827720265901973
+     },
+     "KL per covered cell at symmetric positions": 0.0010969235542787176
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.01325598081503373,
+      "max": 0.9853765219043782
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.010137173037601949,
+      "max": 0.3606041385775367
+     },
+     "KL per covered cell at symmetric positions": 0.0014497973164829567
+    }
+   },
+   "10000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.03800292180350582,
+      "max": 0.9993962481277688
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.021415832649680434,
+      "max": 0.5502035356221657
+     },
+     "KL per covered cell at symmetric positions": 0.008898151862075664
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.04230923103861143,
+      "max": 0.9997936462489992
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.025854053900661242,
+      "max": 0.8585519336265661
+     },
+     "KL per covered cell at symmetric positions": 0.010875075071878702
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.0417563230491385,
+      "max": 0.9989719537894837
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.02820278445368462,
+      "max": 0.7464359867443244
+     },
+     "KL per covered cell at symmetric positions": 0.013974737669455659
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.0396128394941737,
+      "max": 0.9999407082690638
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.025969471499468377,
+      "max": 0.5608412957599815
+     },
+     "KL per covered cell at symmetric positions": 0.010669573817425415
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.039854057253456,
+      "max": 0.998941896686934
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.02721977135522149,
+      "max": 0.7145181885508187
+     },
+     "KL per covered cell at symmetric positions": 0.011500998540082442
+    }
+   },
+   "1000": {
+    "0": {
+     "equivariance error": {
+      "mean": 0.08423209332964487,
+      "max": 0.9999536078768331
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.049648129296688125,
+      "max": 0.8943131828215899
+     },
+     "KL per covered cell at symmetric positions": 0.04605441706217143
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 0.07790922367149931,
+      "max": 0.9995778844346909
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.03822745745229303,
+      "max": 0.912505987932834
+     },
+     "KL per covered cell at symmetric positions": 0.04600817683492781
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 0.07093222594622042,
+      "max": 0.9934464044982644
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.03918631957958462,
+      "max": 0.829344782069985
+     },
+     "KL per covered cell at symmetric positions": 0.04531397649001354
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 0.08372673654425276,
+      "max": 0.9999762393049235
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.04736125006098488,
+      "max": 0.971817251157207
+     },
+     "KL per covered cell at symmetric positions": 0.04649100458514861
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 0.07949479001066792,
+      "max": 0.9999948161500546
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 0.04572594200990696,
+      "max": 0.9869557662975719
+     },
+     "KL per covered cell at symmetric positions": 0.04787397528891487
+    }
+   }
+  },
+  "plain+avg": {
+   "100000": {
+    "0": {
+     "equivariance error": {
+      "mean": 4.281319095990755e-09,
+      "max": 1.1920718379077044e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.451135518093306e-09,
+      "max": 1.1919597986409514e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0008263775904705405
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 4.185737206490252e-09,
+      "max": 1.1920905601536802e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.078702001701172e-09,
+      "max": 1.1920202125370594e-07
+     },
+     "KL per covered cell at symmetric positions": 0.000560124411725133
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 4.284891192048889e-09,
+      "max": 1.1920820008892719e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.033124298762502e-09,
+      "max": 1.1908004077243461e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0006582996649603034
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 4.1503241374963865e-09,
+      "max": 1.1920864656511654e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.640468650264099e-09,
+      "max": 1.1920928966180355e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0005622808604132909
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 4.209609957805351e-09,
+      "max": 1.192092464741279e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.192257753870278e-09,
+      "max": 1.1920562231759746e-07
+     },
+     "KL per covered cell at symmetric positions": 0.0006478978995656362
+    }
+   },
+   "10000": {
+    "0": {
+     "equivariance error": {
+      "mean": 5.387300931371495e-09,
+      "max": 1.191963839852761e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.103771660084876e-09,
+      "max": 8.940619755648527e-08
+     },
+     "KL per covered cell at symmetric positions": 0.004156035815618451
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 5.039535335233682e-09,
+      "max": 1.192071910072201e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.950517886226917e-09,
+      "max": 9.559690827831702e-08
+     },
+     "KL per covered cell at symmetric positions": 0.005319515208019241
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 4.845043301497807e-09,
+      "max": 1.1918937004029573e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.89041022736871e-09,
+      "max": 1.1483267720047152e-07
+     },
+     "KL per covered cell at symmetric positions": 0.006855022515821806
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 4.9224576554009175e-09,
+      "max": 1.1920924525288257e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 8.770405802513508e-09,
+      "max": 9.188605881726986e-08
+     },
+     "KL per covered cell at symmetric positions": 0.004928750804708031
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 5.065712138170292e-09,
+      "max": 1.192068502242627e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.046116283699613e-09,
+      "max": 1.1911415720433638e-07
+     },
+     "KL per covered cell at symmetric positions": 0.005173389893737256
+    }
+   },
+   "1000": {
+    "0": {
+     "equivariance error": {
+      "mean": 7.37608249672697e-09,
+      "max": 1.1919241310609507e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.187685431304265e-09,
+      "max": 1.1711725567131737e-07
+     },
+     "KL per covered cell at symmetric positions": 0.03173327175873083
+    },
+    "1": {
+     "equivariance error": {
+      "mean": 8.364533246333747e-09,
+      "max": 1.1920478570903725e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 1.005955745649714e-08,
+      "max": 8.936946505055943e-08
+     },
+     "KL per covered cell at symmetric positions": 0.0386646711016619
+    },
+    "2": {
+     "equivariance error": {
+      "mean": 7.766451133051497e-09,
+      "max": 1.1898340579463706e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.422464043540525e-09,
+      "max": 9.469154227392806e-08
+     },
+     "KL per covered cell at symmetric positions": 0.03827096986024766
+    },
+    "3": {
+     "equivariance error": {
+      "mean": 7.322481625102971e-09,
+      "max": 1.174347273869003e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.247094837798048e-09,
+      "max": 8.872932877324047e-08
+     },
+     "KL per covered cell at symmetric positions": 0.03285503424882963
+    },
+    "4": {
+     "equivariance error": {
+      "mean": 7.195059245812778e-09,
+      "max": 1.1918487963225033e-07
+     },
+     "orbit spread at symmetric positions": {
+      "mean": 9.030083363719914e-09,
+      "max": 1.1784074793741439e-07
+     },
+     "KL per covered cell at symmetric positions": 0.03527224803682063
+    }
+   }
+  }
+ }
+}
